@@ -48,7 +48,7 @@ class resnet(object):
 		_x = tf.matmul(x, W) + b
 		return _x			
 	def cnn(self,x_data,scope):
-		divide=2.0
+		divide=cfg.divide
 		x=x_data
 		x_shape = x.get_shape().as_list()
 		input_num = x_shape[3]
