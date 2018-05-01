@@ -1,4 +1,4 @@
-## Deep Residual Network for pool spec computer
+## Deep Residual Networks for pool spec computer
 
 ## Dataset
 * CIFAR-10
